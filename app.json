@@ -1,7 +1,7 @@
 {
-    "name": "h0310",
-    "description": "xray websocket proxy on heroku",
-    "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
+    "name": "h0514",
+    "description": "on heroku",
+    "keywords": ["tor"],
     "env": {
         "AA": {
             "description": "初阶用户只需修改以下AUUID点击页面最后的Deploy app按钮即可开始部署",
@@ -25,7 +25,7 @@
         },
         "ParameterSSENCYPT": {
             "description": "SS加密方式，查看支持协议: https://www.v2fly.org/config/protocols/shadowsocks.html",
-            "value": "chacha20-ietf-poly1305"
+            "value": "aes-256-gcm"
         },
         "StoreFiles": {
             "description": "自定义网络地址读取存储文件列表",
